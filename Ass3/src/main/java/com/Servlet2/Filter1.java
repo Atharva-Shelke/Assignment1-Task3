@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Servlet Filter implementation class Filter1
  */
-@WebFilter(servletNames = { "Servlet2" })
+//@WebFilter(servletNames = { "Servlet2" })
 public class Filter1 extends HttpFilter implements Filter {
        
     /**
@@ -52,7 +52,9 @@ public class Filter1 extends HttpFilter implements Filter {
 		}
 		else {
 			response.getWriter().println("Invalid age");
-		}			
+		}
+		System.out.println("__________\nAgain In Filter");
+
 	}
 
 	/**

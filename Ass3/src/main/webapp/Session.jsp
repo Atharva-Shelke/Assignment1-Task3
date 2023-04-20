@@ -13,7 +13,7 @@
 Name: <br>
 <input type="text" name="name"><br>
 Age:<br>
-<input type="text" name="age"><br>
+<input type="number" name="age"><br>
 <input type="submit" value="Proceed">
 </form>
 </body>
